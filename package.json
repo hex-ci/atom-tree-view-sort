@@ -1,7 +1,7 @@
 {
   "name": "tree-view-sort",
   "main": "./lib/tree-view-sort",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The sorted tree-view package for Atom.",
   "keywords": [],
   "repository": "https://github.com/hex-ci/atom-tree-view-sort",
