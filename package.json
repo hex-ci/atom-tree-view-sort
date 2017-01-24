@@ -1,10 +1,9 @@
 {
   "name": "tree-view-sort",
   "main": "./lib/tree-view-sort",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "The sorted tree-view package for Atom.",
-  "keywords": [
-  ],
+  "keywords": [],
   "repository": "https://github.com/hex-ci/atom-tree-view-sort",
   "license": "MIT",
   "engines": {
