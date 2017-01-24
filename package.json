@@ -1,0 +1,14 @@
+{
+  "name": "tree-view-sort",
+  "main": "./lib/tree-view-sort",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "repository": "https://github.com/hex-ci/tree-view-sort",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}
