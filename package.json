@@ -17,7 +17,7 @@
       "type": "integer",
       "default": 0,
       "enum": [
-        {"value": 0, "description": "Tree View Default"},
+        {"value": 0, "description": "Tree View Default(disable the tree-view-sort package)"},
         {"value": 1, "description": "File name"},
         {"value": 2, "description": "File extension name"},
         {"value": 3, "description": "File size"},
@@ -29,7 +29,7 @@
     },
     "descending": {
       "title": "Descending Sort",
-      "description": "Use descending sort, otherwise use ascending sort.",
+      "description": "Use descending sort, otherwise use ascending sort. Unavailable when the tree-view-sort package is disabled.",
       "type": "boolean",
       "default": false,
       "order": 2
