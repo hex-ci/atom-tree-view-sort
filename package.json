@@ -2,12 +2,37 @@
   "name": "tree-view-sort",
   "main": "./lib/tree-view-sort",
   "version": "0.0.3",
-  "description": "The sorted tree-view package for Atom.",
+  "description": "Add a sort feature for the Atom tree-view package.",
   "keywords": [],
   "repository": "https://github.com/hex-ci/atom-tree-view-sort",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "configSchema": {
+    "type": {
+      "title": "Sort Type",
+      "description": "The sort type of the Atom tree-view package.",
+      "type": "integer",
+      "default": 0,
+      "enum": [
+        {"value": 0, "description": "Tree View Default"},
+        {"value": 1, "description": "File name"},
+        {"value": 2, "description": "File extension name"},
+        {"value": 3, "description": "File size"},
+        {"value": 4, "description": "File access time"},
+        {"value": 5, "description": "File change time"},
+        {"value": 6, "description": "File modify time"}
+      ],
+      "order": 1
+    },
+    "descending": {
+      "title": "Descending Sort",
+      "description": "Use descending sort, otherwise use ascending sort.",
+      "type": "boolean",
+      "default": false,
+      "order": 2
+    }
+  }
 }
