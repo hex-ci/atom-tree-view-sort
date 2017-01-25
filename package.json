@@ -17,7 +17,7 @@
       "type": "integer",
       "default": 0,
       "enum": [
-        {"value": 0, "description": "Tree View Default(disable the tree-view-sort package)"},
+        {"value": 0, "description": "Default (disable the tree-view-sort package)"},
         {"value": 1, "description": "File name"},
         {"value": 2, "description": "File extension name"},
         {"value": 3, "description": "File size"},
