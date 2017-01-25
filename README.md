@@ -2,7 +2,7 @@
 
 Add a sort feature for the Atom tree-view package.
 
-## Feature
+## Features
 
 ### Sort Type
 
