@@ -1,7 +1,7 @@
 {
   "name": "tree-view-sort",
   "main": "./lib/tree-view-sort",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "description": "Add a sort feature for the Atom tree-view package.",
   "keywords": [
     "tree",
