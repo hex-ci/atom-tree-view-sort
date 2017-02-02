@@ -16,7 +16,7 @@
   "dependencies": {},
   "configSchema": {
     "type": {
-      "title": "Sort Type",
+      "title": "Sort By",
       "description": "The sort type of the Atom tree-view package.",
       "type": "integer",
       "default": 0,
@@ -48,6 +48,10 @@
         {
           "value": 6,
           "description": "File modify time"
+        },
+        {
+          "value": 7,
+          "description": "File birth time"
         }
       ],
       "order": 1
