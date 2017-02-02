@@ -12,6 +12,7 @@ Add a sort feature for the Atom tree-view package.
 * File access time
 * File change time
 * File modify time
+* File birth time
 
 ### Descending Sort
 
