@@ -1,10 +1,10 @@
 # tree-view-sort package
 
-Add a sort feature for the Atom tree-view package.
+Add a sorting feature for the Atom tree-view package.
 
 ## Features
 
-### Sort Type
+### Sort By
 
 * File name
 * File extension name
@@ -12,8 +12,12 @@ Add a sort feature for the Atom tree-view package.
 * File access time
 * File change time
 * File modify time
-* File birth time
+* File creation time
 
-### Descending Sort
+### Descending Sorting
 
 You can set descending sorting or ascending sorting.
+
+### Case-Sensitive Sorting
+
+You can set case-sensitive sorting or case-insensitive sorting.

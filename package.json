@@ -17,7 +17,7 @@
   "configSchema": {
     "type": {
       "title": "Sort By",
-      "description": "The sort type of the Atom tree-view package.",
+      "description": "The sorting type of the Atom tree-view package.",
       "type": "integer",
       "default": 1,
       "enum": [
@@ -51,17 +51,24 @@
         },
         {
           "value": 7,
-          "description": "File birth time"
+          "description": "File creation time"
         }
       ],
       "order": 1
     },
     "descending": {
-      "title": "Descending Sort",
-      "description": "Use descending sort, otherwise use ascending sort. Unavailable when the tree-view-sort package is disabled.",
+      "title": "Descending Sorting",
+      "description": "Use descending sorting, otherwise use ascending sorting. Unavailable when the tree-view-sort package is disabled.",
       "type": "boolean",
       "default": false,
       "order": 2
+    },
+    "caseSensitive": {
+      "title": "Case-Sensitive Sorting",
+      "description": "Use case-sensitive sorting, otherwise use case-insensitive sorting. Unavailable when the tree-view-sort package is disabled.",
+      "type": "boolean",
+      "default": true,
+      "order": 3
     }
   }
 }
