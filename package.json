@@ -19,7 +19,7 @@
       "title": "Sort By",
       "description": "The sort type of the Atom tree-view package.",
       "type": "integer",
-      "default": 0,
+      "default": 1,
       "enum": [
         {
           "value": 0,
