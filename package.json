@@ -2,10 +2,11 @@
   "name": "tree-view-sort",
   "main": "./lib/tree-view-sort",
   "version": "0.4.0",
-  "description": "Add a sort feature for the Atom tree-view package.",
+  "description": "Add a sorting feature for the Atom tree-view package.",
   "keywords": [
     "tree",
     "tree-view",
+    "sorting",
     "sort"
   ],
   "repository": "https://github.com/hex-ci/atom-tree-view-sort",
