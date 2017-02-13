@@ -21,3 +21,7 @@ You can set descending sorting or ascending sorting.
 ### Case-Sensitive Sorting
 
 You can set case-sensitive sorting or case-insensitive sorting.
+
+### Sort Folders Before Files
+
+When listing directory items, list subdirectories before listing files.

@@ -70,6 +70,13 @@
       "type": "boolean",
       "default": true,
       "order": 3
+    },
+    "sortFoldersBeforeFiles": {
+      "title": "Sort Folders Before Files",
+      "description": "When listing directory items, list subdirectories before listing files.",
+      "type": "boolean",
+      "default": true,
+      "order": 4
     }
   }
 }
