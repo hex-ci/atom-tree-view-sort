@@ -15,8 +15,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "fs-plus": "^3.0.0",
-    "underscore-plus": "^1.0.0"
+    "fs-plus": "^3.0.0"
   },
   "configSchema": {
     "type": {
