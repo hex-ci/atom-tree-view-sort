@@ -6,13 +6,13 @@ Add a sorting feature for the Atom tree-view package.
 
 ### Sort By
 
-* File name
-* File extension name
-* File size
-* File access time
-* File change time
-* File modify time
-* File creation time
+*   File name
+*   File extension name
+*   File size
+*   File access time
+*   File change time
+*   File modify time
+*   File creation time
 
 ### Descending Sorting
 
