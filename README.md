@@ -1,4 +1,6 @@
 # tree-view-sort package
+[![Version](https://img.shields.io/apm/v/tree-view-sort.svg?style=flat-square)](https://atom.io/packages/tree-view-sort)
+[![Downloads](https://img.shields.io/apm/dm/tree-view-sort.svg?style=flat-square)](https://atom.io/packages/tree-view-sort)
 
 Add a sorting feature for the Atom tree-view package.
 
