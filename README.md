@@ -15,7 +15,7 @@ Add a sorting feature for the Atom tree-view package.
 *   File change time
 *   File modify time
 *   File creation time
-*   File group name, group mean "component", "directive" etc, e.g. a.component.js b.component.js a.directive.js b.directive.js
+*   File group name, group mean "component", "directive" etc, e.g. "a.component.js" "b.component.js" "a.directive.js" "b.directive.js"
 
 ### Descending Sorting
 
