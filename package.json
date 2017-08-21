@@ -38,27 +38,27 @@
         },
         {
           "value": 3,
-          "description": "File group name"
-        },
-        {
-          "value": 4,
           "description": "File size"
         },
         {
-          "value": 5,
+          "value": 4,
           "description": "File access time"
         },
         {
-          "value": 6,
+          "value": 5,
           "description": "File change time"
         },
         {
-          "value": 7,
+          "value": 6,
           "description": "File modify time"
         },
         {
-          "value": 8,
+          "value": 7,
           "description": "File creation time"
+        },
+        {
+          "value": 8,
+          "description": "File group name"
         }
       ],
       "order": 1
