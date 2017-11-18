@@ -1,6 +1,7 @@
 # tree-view-sort package
 [![Version](https://img.shields.io/apm/v/tree-view-sort.svg?style=flat-square)](https://atom.io/packages/tree-view-sort)
 [![Downloads](https://img.shields.io/apm/dm/tree-view-sort.svg?style=flat-square)](https://atom.io/packages/tree-view-sort)
+[![Join the chat at https://gitter.im/atom-tree-view-sort/Lobby](https://badges.gitter.im/atom-tree-view-sort/Lobby.svg)](https://gitter.im/atom-tree-view-sort/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Add a sorting feature for the Atom tree-view package.
 
