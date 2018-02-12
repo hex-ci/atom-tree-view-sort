@@ -16,7 +16,7 @@ Add a sorting feature for the Atom tree-view package.
 *   File change time
 *   File modify time
 *   File creation time
-*   File group name, group mean "component", "directive" etc, e.g. "a.component.js" "b.component.js" "a.directive.js" "b.directive.js"
+*   File group name ("file group" means "component", "directive" etc, e.g. "a.component.js" "b.component.js" "a.directive.js" "b.directive.js")
 
 ### Descending Sorting
 
@@ -26,6 +26,6 @@ You can set descending sorting or ascending sorting.
 
 You can set case-sensitive sorting or case-insensitive sorting.
 
-### Sort Folders Before Files
+### Sort Folders Before or After Files
 
-When listing directory items, list subdirectories before listing files.
+When listing directory items, list subdirectories before or after files.
