@@ -18,6 +18,20 @@
     "fs-plus": "^3.0.0"
   },
   "configSchema": {
+    "descending": {
+      "title": "Descending Sorting",
+      "description": "Use descending sorting, otherwise use ascending sorting. Unavailable when the tree-view-sort package is disabled.",
+      "type": "boolean",
+      "default": false,
+      "order": 1
+    },
+    "caseSensitive": {
+      "title": "Case-Sensitive Sorting",
+      "description": "Use case-sensitive sorting, otherwise use case-insensitive sorting. Unavailable when the tree-view-sort package is disabled.",
+      "type": "boolean",
+      "default": true,
+      "order": 2
+    },
     "type": {
       "title": "Sort By",
       "description": "The sorting type of the Atom tree-view package.",
@@ -61,27 +75,27 @@
           "description": "File group name"
         }
       ],
-      "order": 1
-    },
-    "descending": {
-      "title": "Descending Sorting",
-      "description": "Use descending sorting, otherwise use ascending sorting. Unavailable when the tree-view-sort package is disabled.",
-      "type": "boolean",
-      "default": false,
-      "order": 2
-    },
-    "caseSensitive": {
-      "title": "Case-Sensitive Sorting",
-      "description": "Use case-sensitive sorting, otherwise use case-insensitive sorting. Unavailable when the tree-view-sort package is disabled.",
-      "type": "boolean",
-      "default": true,
       "order": 3
     },
-    "sortFoldersBeforeFiles": {
-      "title": "Sort Folders Before Files",
-      "description": "When listing directory items, list subdirectories before listing files.",
-      "type": "boolean",
-      "default": true,
+    "sortFolders": {
+      "title": "Sort Folders",
+      "description": "When listing directory items, sort folders before or after files.",
+      "type": "integer",
+      "default": 1,
+      "enum" : [
+          {
+            "value": 0,
+            "description": "Sort files and folders together (normal behaviour)"
+          },
+          {
+            "value": 1,
+            "description": "Sort folders before files"
+          },
+          {
+            "value": 2,
+            "description": "Sort folders after files"
+          }
+      ],
       "order": 4
     }
   }
