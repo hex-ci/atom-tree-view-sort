@@ -82,21 +82,24 @@
       "description": "When listing directory items, sort folders before or after files.",
       "type": "integer",
       "default": 1,
-      "enum" : [
-          {
-            "value": 0,
-            "description": "Sort files and folders together (normal behaviour)"
-          },
-          {
-            "value": 1,
-            "description": "Sort folders before files"
-          },
-          {
-            "value": 2,
-            "description": "Sort folders after files"
-          }
+      "enum": [
+        {
+          "value": 0,
+          "description": "Sort files and folders together (normal behaviour)"
+        },
+        {
+          "value": 1,
+          "description": "Sort folders before files"
+        },
+        {
+          "value": 2,
+          "description": "Sort folders after files"
+        }
       ],
       "order": 4
     }
+  },
+  "devDependencies": {
+    "eslint": "^4.18.1"
   }
 }
