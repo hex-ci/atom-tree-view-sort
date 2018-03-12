@@ -47,6 +47,10 @@
           "description": "File name"
         },
         {
+          "value": 9,
+          "description": "File name (ignore extension)"
+        },
+        {
           "value": 2,
           "description": "File extension name"
         },

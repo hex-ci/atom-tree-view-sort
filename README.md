@@ -12,6 +12,7 @@ Add a sorting feature for the Atom tree-view package.
 ### Sort By
 
 *   File name
+*   File name (ignore extension)
 *   File extension name
 *   File size
 *   File access time
