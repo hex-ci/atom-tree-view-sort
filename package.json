@@ -98,6 +98,10 @@
         {
           "value": 2,
           "description": "Sort folders after files"
+        },
+        {
+          "value": 3,
+          "description": "Don't sort folders"
         }
       ],
       "order": 4
