@@ -32,6 +32,13 @@
       "default": true,
       "order": 2
     },
+    "isSortFolder": {
+      "title": "Sorting Folders",
+      "description": "Use Sorting Folders will execute folder sorting, otherwise the folder will not be sorted. Does not affect sort folders before or after files. Unavailable when the tree-view-sort package is disabled.",
+      "type": "boolean",
+      "default": true,
+      "order": 3
+    },
     "type": {
       "title": "Sort By",
       "description": "The sorting type of the Atom tree-view package.",
@@ -79,7 +86,7 @@
           "description": "File group name"
         }
       ],
-      "order": 3
+      "order": 4
     },
     "sortFolders": {
       "title": "Sort Folders",
@@ -98,13 +105,9 @@
         {
           "value": 2,
           "description": "Sort folders after files"
-        },
-        {
-          "value": 3,
-          "description": "Don't sort folders"
         }
       ],
-      "order": 4
+      "order": 5
     }
   },
   "devDependencies": {
