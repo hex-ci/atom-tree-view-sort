@@ -29,6 +29,10 @@ You can set descending sorting or ascending sorting.
 
 You can set case-sensitive sorting or case-insensitive sorting.
 
+### Sorting Folders
+
+Use Sorting Folders will execute folder sorting, otherwise the folder will not be sorted. Does not affect sort folders before or after files.
+
 ### Sort Folders Before or After Files
 
 When listing directory items, list subdirectories before or after files.
