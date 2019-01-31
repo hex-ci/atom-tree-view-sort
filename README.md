@@ -31,7 +31,7 @@ You can set case-sensitive sorting or case-insensitive sorting.
 
 ### Sorting Folders
 
-Use Sorting Folders will execute folder sorting, otherwise the folder will not be sorted. Does not affect sort folders before or after files.
+Using the Sorting Folders will sort the folders, otherwise the folders will not be sorted. This option does not affect the option of the sort folders before or after files.
 
 ### Sort Folders Before or After Files
 
