@@ -16,6 +16,13 @@
   },
   "dependencies": {},
   "configSchema": {
+    "dirsToApplyToRegEx": {
+      "title": "Directories to apply to",
+      "description": "RegEx defining what directories to apply settings to.  Regex matches against full path.  Leave blank to apply to all dirs. (ex: 'tmp', '^/home/chris/tmp$', 'dir1|dir2', '^C:\\Users\\chris\\mydir$')",
+      "type": "string",
+      "default": "",
+      "order": 0
+    },
     "descending": {
       "title": "Descending Sorting",
       "description": "Use descending sorting, otherwise use ascending sorting. Unavailable when the tree-view-sort package is disabled.",

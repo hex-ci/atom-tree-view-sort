@@ -9,6 +9,10 @@ Add a sorting feature for the Atom tree-view package.
 
 ## Features
 
+### Directories to apply to
+
+You can define a RegEx pattern of which folders to apply these settings to, or leave blank and apply to all folders.
+
 ### Sort By
 
 *   File name
